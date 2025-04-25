@@ -14,7 +14,7 @@ style_input = st.selectbox( "Select Explanation Style", ["Beginner-Friendly", "T
 
 length_input = st.selectbox( "Select Explanation Length", ["Short (1-2 paragraphs)", "Medium (3-5 paragraphs)", "Long (detailed explanation)"] )
 
-tempelate
+template = PromptTemplate
 
 if st.button('summarize') :
     result = model.invoke(user_input)
