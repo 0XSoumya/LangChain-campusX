@@ -1,0 +1,7 @@
+from langchain_mistralai import ChatMistralAI
+from dotenv import load_dotenv
+
+load_dotenv()
+model = ChatMistralAI(model='mistral-small')
+result = model.invoke("what is a car")
+print(result)
