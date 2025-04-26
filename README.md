@@ -30,14 +30,7 @@ Welcome to the LangChain Learning Repository! This project is structured into si
 
 ---
 
-## 🧠 Structured Outputs
 
-Structured outputs are handled in the **Prompts** module, using tools like:
-- `StructuredOutputParser`
-- `PydanticOutputParser`
-- `ResponseSchema`
-
-These tools define how model outputs are parsed into structured formats such as Python dicts or custom classes.
 
 ---
 
