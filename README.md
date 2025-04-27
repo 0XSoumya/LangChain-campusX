@@ -4,7 +4,7 @@ Welcome to the LangChain Learning Repository! This project is structured into si
 
 ## 📚 Modules
 
-1. **Models**
+1. [**Models**] (https://github.com/0XSoumya/LangChain-campusX/tree/main/Models)
    - Learn how to load and use language models with LangChain.
    - Covers: `ChatOpenAI`, `LLM`, temperature, and model configuration.
 
