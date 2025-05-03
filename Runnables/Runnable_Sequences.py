@@ -13,9 +13,14 @@ prompt = PromptTemplate(
     input_variables=['topic']
 )
 
+prompt2 = PromptTemplate(
+    template = 'explain the following joke : {joke}',
+    input_variables=['joke']
+)
+
 model = ChatMistralAI(model = 'mistral-small')
 parser = StrOutputParser()
 
-chain = RunnableSequence(prompt,model,parser)
+chain = RunnableSequence(prompt,model,parser,prompt2,model,parser)
 
 print(chain.invoke({'topic':'AI'}))
