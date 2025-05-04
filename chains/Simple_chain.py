@@ -1,3 +1,6 @@
+# a simple program to generate fun facts about a topic
+# purpose is to demonstrate chains
+
 from langchain_mistralai import ChatMistralAI
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate

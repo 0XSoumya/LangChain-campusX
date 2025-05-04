@@ -1,3 +1,6 @@
+#a program that generates a report on a given topic and then provides its summary 
+#purpose is to demonstrate a sequential chain with multiple stages
+
 from langchain_mistralai import ChatMistralAI
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
