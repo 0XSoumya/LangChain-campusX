@@ -27,4 +27,7 @@ parallel_chain = RunnableParallel({
 final_chain = RunnableSequence(joke_chain, parallel_chain)
 
 result = final_chain.invoke({'topic':'math'})
-print(result)
+
+final_result = """{} \n word count - {}""".format(result['joke'], result['count'])
+
+print(final_result)
