@@ -38,4 +38,4 @@ Welcome to the LangChain Learning Repository! This project is structured into si
 
 1. Clone the repo:
    ```bash
-  to be added
+   https://github.com/0XSoumya/LangChain-campusX
